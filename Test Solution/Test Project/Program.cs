@@ -8,6 +8,12 @@ namespace Test_Project
 {
     class Program
     {
+
+        static void doit()
+        {
+            Console.WriteLine("Does something");
+            Console.ReadLine();
+        }
         static void Main(string[] args)
         {
             Console.WriteLine("Hmm");
